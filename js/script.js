@@ -92,7 +92,7 @@ const RECIPES = {
     {
       id: 'fit5',
       name: 'Peito de Peru com Batata Doce',
-      img: IMG('1546069901-5ec6a79120b0'),
+      img: IMG('1544025129-a981bd1f29ef'),
       time: '40 min', servings: 2, calories: '350 kcal',
       desc: 'Peito de peru temperado e dourado na frigideira com batata doce assada no forno. Combinação perfeita de proteína magra e carboidrato de baixo índice glicêmico.',
       ingredients: [
@@ -133,7 +133,7 @@ const RECIPES = {
     {
       id: 'fit7',
       name: 'Wrap de Frango e Vegetais',
-      img: IMG('1619096252214-ef06c45683e3'),
+      img: IMG('1565299585323-38d6b0865b47'),
       time: '20 min', servings: 2, calories: '290 kcal',
       desc: 'Wrap crocante recheado com frango grelhado temperado, alface americana, cenoura ralada, tomate e molho de iogurte com ervas.',
       ingredients: [
@@ -153,7 +153,7 @@ const RECIPES = {
     {
       id: 'fit8',
       name: 'Stir Fry de Tofu e Legumes',
-      img: IMG('1546069901-5ec6a79120b0'),
+      img: IMG('1481070414801-51fd0d591058'),
       time: '20 min', servings: 2, calories: '260 kcal',
       desc: 'Refogado oriental com tofu firme dourado, brócolis, cogumelos e molho de missô. Rica em proteína vegetal e fibras, pronto em menos de 20 minutos.',
       ingredients: [
@@ -194,7 +194,7 @@ const RECIPES = {
     {
       id: 'fit10',
       name: 'Bowl de Grão-de-Bico com Tahine',
-      img: IMG('1512621776951-a57141f2eefd'),
+      img: IMG('1585032226651-c03e18a10a7e'),
       time: '15 min', servings: 2, calories: '340 kcal',
       desc: 'Bowl vegetariano rico em proteína vegetal com grão-de-bico temperado, pepino, tomate, cebola roxa e generoso molho de tahine com limão.',
       ingredients: [
@@ -260,7 +260,7 @@ const RECIPES = {
     {
       id: 'rap3',
       name: 'Omelete Recheada Completa',
-      img: IMG('1525351484163-7529414344d8'),
+      img: IMG('1414235077428-338989a2e8c0'),
       time: '12 min', servings: 1, calories: '320 kcal',
       desc: 'Omelete fofa e caprichada recheada com queijo minas, presunto, tomate e ervas frescas. O jantar rápido perfeito quando o tempo é curto.',
       ingredients: [
@@ -361,7 +361,7 @@ const RECIPES = {
     {
       id: 'rap8',
       name: 'Ovos Mexidos Cremosos',
-      img: IMG('1525351484163-7529414344d8'),
+      img: IMG('1528712306091-ed0763094c98'),
       time: '8 min', servings: 1, calories: '240 kcal',
       desc: 'Ovos mexidos no estilo francês: cremosos, sedosos e levemente underdone. Com manteiga de qualidade e cebolinha, são perfeitos com torrada.',
       ingredients: [
@@ -401,7 +401,7 @@ const RECIPES = {
     {
       id: 'rap10',
       name: 'Salada Completa com Atum',
-      img: IMG('1540189549336-e6e99c3679fe'),
+      img: IMG('1482049016688-2d3e1b311543'),
       time: '10 min', servings: 2, calories: '290 kcal',
       desc: 'Salada completa e nutritiva com atum, ovos cozidos, azeitonas, tomate, cenoura ralada e molho especial de mostarda e mel.',
       ingredients: [
@@ -425,7 +425,7 @@ const RECIPES = {
     {
       id: 'mul1',
       name: 'Feijoada Completa Tradicional',
-      img: IMG('1547592577-652bacf6f3af'),
+      img: IMG('1543339308-43e59d6b73a6'),
       time: '3h', servings: 12, calories: '580 kcal',
       desc: 'A rainha das mesas brasileiras: feijoada rica e encorpada com carnes variadas, feijão preto cremoso e toda a guarnição clássica. Para reunir a família toda.',
       ingredients: [
@@ -445,7 +445,7 @@ const RECIPES = {
     {
       id: 'mul2',
       name: 'Churrasco Misto na Brasa',
-      img: IMG('1558618666-fcd25c85cd64'),
+      img: IMG('1504674900247-0877df9cc836'),
       time: '2h', servings: 15, calories: '520 kcal',
       desc: 'Guia completo para um churrasco perfeito com picanha, costela, linguiça artesanal e frango. Técnicas de brasa e temperos infalíveis.',
       ingredients: [
@@ -485,7 +485,7 @@ const RECIPES = {
     {
       id: 'mul4',
       name: 'Frango Assado com Farofa',
-      img: IMG('1558618666-fcd25c85cd64'),
+      img: IMG('1535916707892-eaaf6181b0a1'),
       time: '1h30', servings: 8, calories: '460 kcal',
       desc: 'Frango inteiro assado dourado e suculento temperado com ervas, alho e limão, servido com farofa crocante de bacon e temperos especiais.',
       ingredients: [
@@ -505,7 +505,7 @@ const RECIPES = {
     {
       id: 'mul5',
       name: 'Macarronada para 20 Pessoas',
-      img: IMG('1555949258-eb67b1ef0ceb'),
+      img: IMG('1492683513161-35e82cd8cc3c'),
       time: '1h', servings: 20, calories: '450 kcal',
       desc: 'Macarronada festiva com molho de carne moída robusto, muito queijo e temperos que deixam a casa toda com um cheiro incrível.',
       ingredients: [
@@ -526,7 +526,7 @@ const RECIPES = {
     {
       id: 'mul6',
       name: 'Arroz de Carreteiro Gaúcho',
-      img: IMG('1546069901-5ec6a79120b0'),
+      img: IMG('1479915496397-7e77c87e86a9'),
       time: '1h', servings: 8, calories: '520 kcal',
       desc: 'O autêntico arroz de carreteiro gaúcho com carne seca desfiada, linguiça, ervas e o sabor defumado irresistível. Tradição em cada garfada.',
       ingredients: [
@@ -546,7 +546,7 @@ const RECIPES = {
     {
       id: 'mul7',
       name: 'Bacalhau Assado com Batatas',
-      img: IMG('1467003909585-2f8a72700288'),
+      img: IMG('1535140728325-a4d3707eee61'),
       time: '1h30', servings: 8, calories: '480 kcal',
       desc: 'Bacalhau ao forno clássico com batatas coradas, cebola, azeitonas e azeite generoso. A receita de Natal e Páscoa que todos adoram.',
       ingredients: [
@@ -607,7 +607,7 @@ const RECIPES = {
     {
       id: 'mul10',
       name: 'Sopa de Legumes para a Família',
-      img: IMG('1547592577-652bacf6f3af'),
+      img: IMG('1432139555190-58524dde6321'),
       time: '45 min', servings: 10, calories: '190 kcal',
       desc: 'Sopa caipira robusta com legumes variados, frango, macarrão e ervas frescas. Aquece o coração e serve uma família inteira com generosidade.',
       ingredients: [
@@ -671,7 +671,7 @@ const RECIPES = {
     {
       id: 'df3',
       name: 'Mousse de Chocolate Proteico',
-      img: IMG('1606313564200-e75d5e1ca55a'),
+      img: IMG('1531749668029-2db88e4276c7'),
       time: '15 min', servings: 4, calories: '180 kcal',
       desc: 'Mousse aerada e cremosa de chocolate com whey protein, iogurte grego e cacau. Alta em proteína e baixa em calorias. Parece um pecado mas não é!',
       ingredients: [
@@ -692,7 +692,7 @@ const RECIPES = {
     {
       id: 'df4',
       name: 'Brigadeiro de Whey Protein',
-      img: IMG('1606313564200-e75d5e1ca55a'),
+      img: IMG('1559181567-c3190904d2b4'),
       time: '20 min', servings: 20, calories: '55 kcal',
       desc: 'O queridinho brasileiro na versão fitness com whey protein de chocolate, leite de coco e cacau. Mesmo sabor, muito mais proteína e menos culpa.',
       ingredients: [
@@ -732,7 +732,7 @@ const RECIPES = {
     {
       id: 'df6',
       name: 'Sorvete de Banana com Amendoim',
-      img: IMG('1484723091739-30ad0248ae3e'),
+      img: IMG('1563805042-7684c019e1cb'),
       time: '5 min + 2h', servings: 2, calories: '160 kcal',
       desc: 'O sorvete de 2 ingredientes que virou febre: banana congelada batida até ficar cremosa como sorvete, com manteiga de amendoim e calda de mel.',
       ingredients: [
@@ -772,7 +772,7 @@ const RECIPES = {
     {
       id: 'df8',
       name: 'Trufa de Amendoim Fit',
-      img: IMG('1499636667447-3b45a3272e1d'),
+      img: IMG('1537671954429-a8aaabd41d6f'),
       time: '20 min + 1h', servings: 20, calories: '70 kcal',
       desc: 'Trufas cremosas de manteiga de amendoim com coating de chocolate amargo. Ricas, satisfatórias e com apenas 70 calorias cada.',
       ingredients: [
@@ -813,7 +813,7 @@ const RECIPES = {
     {
       id: 'df10',
       name: 'Panqueca Proteica com Frutas',
-      img: IMG('1567620905732-2d1ec7ab7445'),
+      img: IMG('1547592180-85f173990554'),
       time: '20 min', servings: 2, calories: '220 kcal',
       desc: 'Panquecas proteicas fofas com aveia e banana, servidas com calda de frutas vermelhas sem açúcar. O café da manhã fitness dos sonhos.',
       ingredients: [
@@ -877,7 +877,7 @@ const RECIPES = {
     {
       id: 'doc3',
       name: 'Pudim de Leite Condensado',
-      img: IMG('1484723091739-30ad0248ae3e'),
+      img: IMG('1586985289688-ca058b3db84d'),
       time: '1h30', servings: 8, calories: '290 kcal',
       desc: 'O clássico pudim brasileiro cremoso e tremido com calda de caramelo dourado. A receita que ninguém resiste e todo mundo pede a receita.',
       ingredients: [
@@ -917,7 +917,7 @@ const RECIPES = {
     {
       id: 'doc5',
       name: 'Pavê de Chocolate e Café',
-      img: IMG('1606313564200-e75d5e1ca55a'),
+      img: IMG('1541167760496-1628856ab772'),
       time: '30 min + 3h', servings: 10, calories: '420 kcal',
       desc: 'Pavê sofisticado de biscoito champanhe embebido em café, intercalado com creme belga de chocolate. Sobremesa elegante para ocasiões especiais.',
       ingredients: [
@@ -938,7 +938,7 @@ const RECIPES = {
     {
       id: 'doc6',
       name: 'Quindim Tradicional',
-      img: IMG('1499636667447-3b45a3272e1d'),
+      img: IMG('1464305795204-6f5bbfe7b0d4'),
       time: '1h', servings: 12, calories: '280 kcal',
       desc: 'O doce colonial brasileiro por excelência: base crocante de coco ralado e interior gelado de gema de ovo com baunilha. Amarelinho, brilhoso e irresistível.',
       ingredients: [
@@ -958,7 +958,7 @@ const RECIPES = {
     {
       id: 'doc7',
       name: 'Brigadeiro Gourmet de Pistache',
-      img: IMG('1606313564200-e75d5e1ca55a'),
+      img: IMG('1541658016709-82835701727e'),
       time: '25 min + 1h', servings: 30, calories: '85 kcal',
       desc: 'Brigadeiro gourmet amanteigado com pasta de pistache, enrolado em pistache granulado. A versão sofisticada do doce mais amado do Brasil.',
       ingredients: [
@@ -978,7 +978,7 @@ const RECIPES = {
     {
       id: 'doc8',
       name: 'Torta Holandesa Gelada',
-      img: IMG('1533134242753-76a7a082da22'),
+      img: IMG('1504630083319-bfd135a8f86a'),
       time: '30 min + 4h', servings: 10, calories: '460 kcal',
       desc: 'Torta gelada irresistível com camadas de biscoito, creme de leite condensado com manteiga e cobertura de ganache. Um clássico que nunca decepciona.',
       ingredients: [
@@ -1019,7 +1019,7 @@ const RECIPES = {
     {
       id: 'doc10',
       name: 'Romeu e Julieta Gourmet',
-      img: IMG('1565958011703-44f9829ba187'),
+      img: IMG('1484797288493-45047e842255'),
       time: '20 min', servings: 8, calories: '210 kcal',
       desc: 'A combinação clássica brasileira de goiabada cremosa com queijo minas padrão em versão sofisticada com goiabada cascão caseira e queijo curado.',
       ingredients: [
@@ -1063,7 +1063,7 @@ const RECIPES = {
     {
       id: 'pao2',
       name: 'Pão de Queijo Mineiro',
-      img: IMG('1549931319-a545dcf3bc73'),
+      img: IMG('1574771434512-3d01e78afece'),
       time: '45 min', servings: 20, calories: '95 kcal',
       desc: 'Autêntico pão de queijo mineiro: casquinha crocante, interior elástico e recheado do sabor inconfundível do queijo meia-cura. Impossível comer um só.',
       ingredients: [
@@ -1103,7 +1103,7 @@ const RECIPES = {
     {
       id: 'pao4',
       name: 'Focaccia de Alecrim',
-      img: IMG('1549931319-a545dcf3bc73'),
+      img: IMG('1571748982800-fa51082c2224'),
       time: '2h', servings: 12, calories: '220 kcal',
       desc: 'Focaccia italiana com casca dourada, interior arejado cheio de bolhas e cobertura generosa de azeite, alecrim fresco e flor de sal.',
       ingredients: [
@@ -1123,7 +1123,7 @@ const RECIPES = {
     {
       id: 'pao5',
       name: 'Pão de Forma Artesanal',
-      img: IMG('1509440159596-0249088772ff'),
+      img: IMG('1553361371-9b22f78e8b1d'),
       time: '3h', servings: 16, calories: '145 kcal',
       desc: 'Pão de forma caseiro fofinho com casca macia, perfeito para torradas e sanduíches. Muito superior ao industrializado em sabor e textura.',
       ingredients: [
@@ -1143,7 +1143,7 @@ const RECIPES = {
     {
       id: 'pao6',
       name: 'Pão de Batata Fofinho',
-      img: IMG('1549931319-a545dcf3bc73'),
+      img: IMG('1590301157705-41c3c6ea3dca'),
       time: '2h30', servings: 12, calories: '165 kcal',
       desc: 'Pão de batata com textura incrivelmente macia e levemente adocicado. A batata na massa garante uma umidade que dura dias.',
       ingredients: [
@@ -1163,7 +1163,7 @@ const RECIPES = {
     {
       id: 'pao7',
       name: 'Brioche Francês Amanteigado',
-      img: IMG('1549931319-a545dcf3bc73'),
+      img: IMG('1598373182133-52452f7691ef'),
       time: '3h', servings: 10, calories: '290 kcal',
       desc: 'Brioche francês clássico: massa amanteigada, levemente adocicada com miolo sedoso que derrete na boca. Perfumado com baunilha e casca de laranja.',
       ingredients: [
@@ -1183,7 +1183,7 @@ const RECIPES = {
     {
       id: 'pao8',
       name: 'Pão de Leite Japonês',
-      img: IMG('1509440159596-0249088772ff'),
+      img: IMG('1603569440509-40c877820e3a'),
       time: '3h', servings: 12, calories: '170 kcal',
       desc: 'Shokupan: o famoso pão de leite japonês com textura impossível de ser descrita com palavras — apenas provada. Fio de algodão, levíssimo.',
       ingredients: [
@@ -1203,7 +1203,7 @@ const RECIPES = {
     {
       id: 'pao9',
       name: 'Pão de Banana com Canela',
-      img: IMG('1558961363-fa8fdf82db35'),
+      img: IMG('1587248577-4c6b2c7f35c1'),
       time: '1h', servings: 10, calories: '210 kcal',
       desc: 'Banana bread americano aromático com canela, noz-moscada e pedaços de banana. A textura é entre bolo e pão, perfeita para o café da manhã.',
       ingredients: [
@@ -1223,7 +1223,7 @@ const RECIPES = {
     {
       id: 'pao10',
       name: 'Pão Australiano com Mel',
-      img: IMG('1509440159596-0249088772ff'),
+      img: IMG('1569611800-6a09adfe58f2'),
       time: '2h30', servings: 12, calories: '185 kcal',
       desc: 'Pão escuro australiano com mel, melado e cacau que lhe dão a cor e o sabor característicos. Levemente adocicado e ótimo com manteiga.',
       ingredients: [
