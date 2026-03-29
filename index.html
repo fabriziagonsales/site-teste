@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sabor & Saúde - Receitas Saudáveis e Deliciosas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar">
+    <div class="container nav-inner">
+      <a href="#" class="brand">
+        <span class="brand-leaf">🌿</span>
+        <span class="brand-name">Sabor <em>&</em> Saúde</span>
+      </a>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#fitness">Fitness</a></li>
+        <li><a href="#rapidas">Rápidas</a></li>
+        <li><a href="#multidao">Para Muitos</a></li>
+        <li><a href="#doces-fit">Doces Fit</a></li>
+        <li><a href="#doces">Doces</a></li>
+        <li><a href="#paes">Pães</a></li>
+        <li><a href="#planos" class="nav-cta-link">Adquirir</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Abrir menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-bg">
+      <img src="https://images.unsplash.com/photo-1490645935967-10de6ba17061?auto=format&fit=crop&w=1600&q=80" alt="Receitas saudáveis">
+    </div>
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+      <div class="hero-badge">✨ Culinária Saudável & Gourmet</div>
+      <h1 class="hero-title">
+        Receitas que<br>
+        <em>transformam</em><br>
+        sua mesa
+      </h1>
+      <p class="hero-subtitle">
+        Mais de 60 receitas fitness, doces saudáveis, refeições rápidas e muito mais.
+        Alimentação de qualidade para cada momento da sua vida.
+      </p>
+      <div class="hero-actions">
+        <a href="#fitness" class="btn btn-primary">Explorar Receitas</a>
+        <a href="#planos" class="btn btn-outline">Adquirir Coleção</a>
+      </div>
+      <div class="hero-numbers">
+        <div class="hero-num"><b>60+</b><span>Receitas</span></div>
+        <div class="hero-sep"></div>
+        <div class="hero-num"><b>6</b><span>Categorias</span></div>
+        <div class="hero-sep"></div>
+        <div class="hero-num"><b>100%</b><span>Testadas</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CATEGORY PILLS -->
+  <section class="categories-nav">
+    <div class="container">
+      <div class="cat-pills">
+        <a href="#fitness" class="cat-pill green">🥗 Receitas Fitness</a>
+        <a href="#rapidas" class="cat-pill blue">⚡ Refeições Rápidas</a>
+        <a href="#multidao" class="cat-pill purple">👨‍👩‍👧‍👦 Para Muitas Pessoas</a>
+        <a href="#doces-fit" class="cat-pill teal">💚 Doces Fit</a>
+        <a href="#doces" class="cat-pill red">🍰 Doces & Sobremesas</a>
+        <a href="#paes" class="cat-pill brown">🍞 Pães Artesanais</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FITNESS -->
+  <section class="recipe-section" id="fitness">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge green">🥗 Receitas Fitness</span>
+        <h2>Alimentação Saudável<br><em>com muito sabor</em></h2>
+        <p>Receitas balanceadas, ricas em proteínas e nutrientes para o seu bem-estar</p>
+      </div>
+      <div class="recipes-grid" id="grid-fitness"></div>
+    </div>
+  </section>
+
+  <!-- RÁPIDAS -->
+  <section class="recipe-section bg-light" id="rapidas">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge blue">⚡ Refeições Rápidas</span>
+        <h2>Praticidade no<br><em>dia a dia</em></h2>
+        <p>Receitas deliciosas e nutritivas que ficam prontas em até 30 minutos</p>
+      </div>
+      <div class="recipes-grid" id="grid-rapidas"></div>
+    </div>
+  </section>
+
+  <!-- PARA MUITOS -->
+  <section class="recipe-section" id="multidao">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge purple">👨‍👩‍👧‍👦 Para Muitas Pessoas</span>
+        <h2>Refeições para<br><em>reunir a família</em></h2>
+        <p>Receitas generosas e especiais para grandes ocasiões e celebrações</p>
+      </div>
+      <div class="recipes-grid" id="grid-multidao"></div>
+    </div>
+  </section>
+
+  <!-- DOCES FIT -->
+  <section class="recipe-section bg-light" id="doces-fit">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge teal">💚 Doces Fitness</span>
+        <h2>Indulgência<br><em>sem culpa</em></h2>
+        <p>Sobremesas saudáveis e deliciosas que cabem perfeitamente na sua dieta</p>
+      </div>
+      <div class="recipes-grid" id="grid-docesfit"></div>
+    </div>
+  </section>
+
+  <!-- BANNER PREMIUM -->
+  <section class="premium-banner">
+    <div class="container">
+      <div class="premium-content">
+        <div class="premium-text">
+          <span class="premium-label">⭐ Conteúdo Premium</span>
+          <h2>Quer todas as receitas<br>em um só lugar?</h2>
+          <p>Adquira nossa coleção completa com todas as receitas de doces tradicionais e pães artesanais, com fotos e instruções detalhadas passo a passo.</p>
+          <a href="#planos" class="btn btn-white">Ver Planos e Preços</a>
+        </div>
+        <div class="premium-img">
+          <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=700&h=500&q=80" alt="Coleção de receitas">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DOCES TRADICIONAIS -->
+  <section class="recipe-section" id="doces">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge red">🍰 Doces & Sobremesas</span>
+        <h2>Clássicos que nunca<br><em>saem de moda</em></h2>
+        <p>As melhores receitas de doces e sobremesas da culinária brasileira e internacional</p>
+      </div>
+      <div class="recipes-grid" id="grid-doces"></div>
+    </div>
+  </section>
+
+  <!-- PÃES -->
+  <section class="recipe-section bg-light" id="paes">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge brown">🍞 Pães Artesanais</span>
+        <h2>A arte de fazer<br><em>pão em casa</em></h2>
+        <p>Pães caseiros com textura e sabor incomparáveis, do básico ao sofisticado</p>
+      </div>
+      <div class="recipes-grid" id="grid-paes"></div>
+    </div>
+  </section>
+
+  <!-- PLANOS -->
+  <section class="planos-section" id="planos">
+    <div class="container">
+      <div class="section-header light">
+        <span class="section-badge gold">💛 Adquira Agora</span>
+        <h2>Escolha seu<br><em>acesso</em></h2>
+        <p>Adquira a coleção completa e transforme a sua cozinha</p>
+      </div>
+      <div class="planos-grid">
+        <div class="plano-card">
+          <div class="plano-icon">🌱</div>
+          <h3>Básico</h3>
+          <div class="plano-price">
+            <span class="currency">R$</span>
+            <span class="amount">27</span>
+            <span class="cents">,90</span>
+          </div>
+          <p class="plano-note">Pagamento único</p>
+          <ul class="plano-features">
+            <li class="yes">✓ 20 Receitas Fitness</li>
+            <li class="yes">✓ 10 Refeições Rápidas</li>
+            <li class="yes">✓ 10 Doces Fit</li>
+            <li class="yes">✓ Acesso por 1 ano</li>
+            <li class="no">✗ Refeições para Muitos</li>
+            <li class="no">✗ Doces Tradicionais</li>
+            <li class="no">✗ Pães Artesanais</li>
+          </ul>
+          <a href="https://wa.me/5500000000000?text=Olá!%20Quero%20o%20plano%20Básico%20do%20Sabor%20%26%20Saúde!" class="btn btn-outline-dark" target="_blank">Adquirir Agora</a>
+        </div>
+
+        <div class="plano-card featured">
+          <div class="plano-popular">Mais Popular</div>
+          <div class="plano-icon">⭐</div>
+          <h3>Completo</h3>
+          <div class="plano-price">
+            <span class="currency">R$</span>
+            <span class="amount">47</span>
+            <span class="cents">,90</span>
+          </div>
+          <p class="plano-note">Pagamento único</p>
+          <ul class="plano-features">
+            <li class="yes">✓ Todas as Receitas Fitness</li>
+            <li class="yes">✓ Refeições Rápidas</li>
+            <li class="yes">✓ Refeições para Muitos</li>
+            <li class="yes">✓ Doces Fit</li>
+            <li class="yes">✓ 10 Doces Tradicionais</li>
+            <li class="yes">✓ 10 Pães Artesanais</li>
+            <li class="yes">✓ Acesso Vitalício</li>
+          </ul>
+          <a href="https://wa.me/5500000000000?text=Olá!%20Quero%20o%20plano%20Completo%20do%20Sabor%20%26%20Saúde!" class="btn btn-primary" target="_blank">Adquirir Agora</a>
+        </div>
+
+        <div class="plano-card">
+          <div class="plano-icon">👑</div>
+          <h3>Premium</h3>
+          <div class="plano-price">
+            <span class="currency">R$</span>
+            <span class="amount">67</span>
+            <span class="cents">,90</span>
+          </div>
+          <p class="plano-note">Pagamento único</p>
+          <ul class="plano-features">
+            <li class="yes">✓ Tudo do Plano Completo</li>
+            <li class="yes">✓ +30 Receitas Exclusivas</li>
+            <li class="yes">✓ Cardápio Semanal</li>
+            <li class="yes">✓ Lista de Compras Pronta</li>
+            <li class="yes">✓ Suporte por WhatsApp</li>
+            <li class="yes">✓ Atualizações Grátis</li>
+            <li class="yes">✓ Acesso Vitalício</li>
+          </ul>
+          <a href="https://wa.me/5500000000000?text=Olá!%20Quero%20o%20plano%20Premium%20do%20Sabor%20%26%20Saúde!" class="btn btn-outline-dark" target="_blank">Adquirir Agora</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="#" class="brand white">
+          <span class="brand-leaf">🌿</span>
+          <span class="brand-name">Sabor <em>&</em> Saúde</span>
+        </a>
+        <p>Receitas saudáveis e deliciosas para transformar a sua alimentação e qualidade de vida.</p>
+        <div class="social-links">
+          <a href="#" title="Instagram">📸 Instagram</a>
+          <a href="#" title="WhatsApp">💬 WhatsApp</a>
+          <a href="#" title="YouTube">▶️ YouTube</a>
+        </div>
+      </div>
+      <div class="footer-links">
+        <h4>Categorias</h4>
+        <ul>
+          <li><a href="#fitness">Receitas Fitness</a></li>
+          <li><a href="#rapidas">Refeições Rápidas</a></li>
+          <li><a href="#multidao">Para Muitas Pessoas</a></li>
+          <li><a href="#doces-fit">Doces Fitness</a></li>
+          <li><a href="#doces">Doces Tradicionais</a></li>
+          <li><a href="#paes">Pães Artesanais</a></li>
+        </ul>
+      </div>
+      <div class="footer-contact">
+        <h4>Contato</h4>
+        <p>📱 WhatsApp: (XX) XXXXX-XXXX</p>
+        <p>📧 contato@saborесаude.com</p>
+        <p>📸 @saborесаude</p>
+        <a href="https://wa.me/5500000000000" class="btn btn-whatsapp" target="_blank">💬 Fale Conosco</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 Sabor & Saúde. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- MODAL -->
+  <div class="modal-overlay" id="modalOverlay">
+    <div class="modal-box" id="modalBox">
+      <button class="modal-close" id="modalClose" aria-label="Fechar">✕</button>
+      <div class="modal-body" id="modalBody"></div>
+    </div>
+  </div>
+
+  <!-- WhatsApp Float -->
+  <a href="https://wa.me/5500000000000?text=Olá!%20Quero%20saber%20mais%20sobre%20as%20receitas%20Sabor%20%26%20Saúde!" class="whatsapp-float" target="_blank" rel="noopener" title="Fale conosco pelo WhatsApp">
+    <svg viewBox="0 0 24 24" fill="currentColor" width="28" height="28">
+      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+    </svg>
+  </a>
+
+  <!-- Back to Top -->
+  <button class="back-to-top" id="backToTop" title="Voltar ao topo">↑</button>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
